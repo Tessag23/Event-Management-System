@@ -1,0 +1,81 @@
+body{
+    margin: 0; /* to remove default margin and padding */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+}
+#logo{
+    width: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#events{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.event-card{
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+#event-details{
+    max-width: 350px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: lavender;
+ }
+form{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lavenderblush;
+}
+.apply-form label,.apply-form input{
+    width: 70%;
+}
+#b{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+#f{
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
